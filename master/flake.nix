@@ -11,7 +11,6 @@
   inputs.src-NimbleImGui-master.ref   = "refs/heads/master";
   inputs.src-NimbleImGui-master.owner = "qb-0";
   inputs.src-NimbleImGui-master.repo  = "NimbleImGui";
-  inputs.src-NimbleImGui-master.dir   = "";
   inputs.src-NimbleImGui-master.type  = "github";
   
   inputs."nimgl".owner = "nim-nix-pkgs";
