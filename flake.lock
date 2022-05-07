@@ -21,23 +21,53 @@
         "type": "github"
       }
     },
-    "nimgl": {
+    "nimbleimgui-master": {
       "inputs": {
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
+        "nimgl": "nimgl",
         "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-NimbleImGui-master": "src-NimbleImGui-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556780,
+        "narHash": "sha256-/LUBz0g6aEUDVB1MWssgc/KiBxbgASKKv8JtiVpJIAI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimbleimgui",
+        "rev": "4d291a675d09a03d94551d82bdcb561d14a6684e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimbleimgui",
+        "type": "github"
+      }
+    },
+    "nimgl": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "nimbleimgui-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nimbleimgui-master",
           "nixpkgs"
         ],
         "src-nimgl-1_3_2": "src-nimgl-1_3_2"
       },
       "locked": {
         "dir": "1_3_2",
-        "lastModified": 1651918198,
-        "narHash": "sha256-Jg8+xjT+BZSna8at6d5GcVFBsOgczUCe/N2RGQCzHgw=",
+        "lastModified": 1651555733,
+        "narHash": "sha256-6JTVBjaJZ1maUh2parFtVN8iVfVjxPaK1uwccGHSp1s=",
         "owner": "nim-nix-pkgs",
         "repo": "nimgl",
-        "rev": "3590c0deb5ccbd5e815b24f61ad7c4788c943376",
+        "rev": "4ac628c5317464ac7e0c71936ce22b634f2acfb1",
         "type": "github"
       },
       "original": {
@@ -62,9 +92,8 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nimgl": "nimgl",
-        "nixpkgs": "nixpkgs",
-        "src-NimbleImGui-master": "src-NimbleImGui-master"
+        "nimbleimgui-master": "nimbleimgui-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-NimbleImGui-master": {
