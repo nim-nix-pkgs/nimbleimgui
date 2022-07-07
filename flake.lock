@@ -34,11 +34,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1656301832,
-        "narHash": "sha256-RTO9kTPCpsG+4OpqXOjEMq0DW+4Qp1iYwdBOJ6X6EjQ=",
+        "lastModified": 1656747588,
+        "narHash": "sha256-iIdibYx/HZDC+mW/cYGsL6aRE+1fz8JF9D0mOemKC5U=",
         "owner": "nim-nix-pkgs",
         "repo": "nimbleimgui",
-        "rev": "72c3841258bc133453353caa44ce6d8eae848081",
+        "rev": "c9137a75cd2d9be9cee9931073bfd536de86de9b",
         "type": "github"
       },
       "original": {
@@ -63,11 +63,11 @@
       },
       "locked": {
         "dir": "1_3_2",
-        "lastModified": 1656301075,
-        "narHash": "sha256-5hgnntC1Z/fJ+HO0Id2Mw0AD/1utQMM4sVqDXdG4QGc=",
+        "lastModified": 1656746928,
+        "narHash": "sha256-aaFYXLd6Fohh+Ql7YoA9/Ss1AySsuGhsgPK+XGFKaFM=",
         "owner": "nim-nix-pkgs",
         "repo": "nimgl",
-        "rev": "9388a616251a7146a3ae69dec3cc8fed5bda9e39",
+        "rev": "994d4e206cff8b667ace766416093dabb87fd5ef",
         "type": "github"
       },
       "original": {
